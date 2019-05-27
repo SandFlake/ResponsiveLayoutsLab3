@@ -1,0 +1,262 @@
+
+
+#wrapper{
+  overflow: hidden;
+}
+header{
+  background-color: blue;
+}
+nav{
+  background-color: yellow;
+}
+section{
+  background-color: lightgreen;
+}
+figure{
+  background-color: lightgreen;
+}
+footer{
+  background-color: pink;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {width: 100%}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+
+@media screen and (max-width:480px){
+  body{
+    margin: 5px;
+  }
+  header, nav, section, figure, footer{
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px; 
+    }
+    
+li a:hover, a:focus {
+    background-color: darkorange;
+    color: white;
+}
+  ul {
+  border: 1px solid #555;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 1024px){
+   body{
+    background-color: peachpuff;
+        
+  }
+  header, nav, section, figure, footer{
+      margin-bottom: 5px;
+    padding: 10px;
+  }
+    
+    h1{ 
+        font-size: 15px;
+    }
+    
+    
+  header{
+    position: fixed;
+    width: 20%;
+    height: 10%;
+    padding: 10px;  
+  }
+    
+    
+  nav{
+    position: fixed;
+    width: 20%;
+    top: 14%;
+    bottom: 10%;
+  }
+    
+  section{
+      width: 75%;
+      float: right;
+    
+  }
+    
+  figure{
+      
+    margin: 4vw;
+    width: 22vw; 
+    float: left;
+      height: 31vw; 
+      
+
+  }
+    
+  footer{
+    position: fixed;
+    width: 20%;
+    height: 10%;
+    top: 90%;
+    padding-bottom: 10px;
+  }
+    
+    
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px; 
+    }
+    
+li a:hover, a:focus {
+    background-color: darkorange;
+    color: white;
+}
+  ul {
+  border: 1px solid #555;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+        
+}
+
+
+
+
+@media screen and (min-width: 1025px){
+  body {
+      background-color: lightcoral;
+      height: auto;
+  }
+    
+    header, nav, section, figure, footer {
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    
+    header {
+        height: 10%;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    nav {
+        height: 10%;
+        text-align: center; 
+    }
+    
+    section {
+        width: auto;
+        min-height: 1000px;
+    }
+    
+    figure {
+       
+        
+       float: left;
+        width: 20vw;
+        height: 20vw;
+        margin: 4vw;
+       
+    }
+    
+    footer {
+        height: 20%;
+    }
+    
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    text-align: center;
+    display: inline-block;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+    
+}
